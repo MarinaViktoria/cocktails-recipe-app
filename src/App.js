@@ -41,7 +41,7 @@ function App() {
       </div>
       <div className="container">
         <form onSubmit={finalSearch}>
-          <input type="text" className="search" placeholder="Search..." 
+          <input type="text" className="search" placeholder="Search..." spellcheck= "false" 
           onChange={myRecipeSearch} value={mySearch}/>
         </form>
         <button onClick={finalSearch}> 
